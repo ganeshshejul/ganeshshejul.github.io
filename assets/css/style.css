@@ -26,9 +26,23 @@ body.light-mode {
     color: #000;
 }
 
+body.light-mode header, 
+body.light-mode footer, 
+body.light-mode .content {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
 body.dark-mode {
     background-color: #333;
     color: #fff;
+}
+
+body.dark-mode header, 
+body.dark-mode footer, 
+body.dark-mode .content {
+    background-color: #222;
+    color: #ddd;
 }
 
 .mode-toggle {
