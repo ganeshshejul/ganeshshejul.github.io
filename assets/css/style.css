@@ -17,44 +17,6 @@
 
 :root {
 
-	body {
-    transition: background-color 0.3s, color 0.3s;
-}
-
-body.light-mode {
-    background-color: #fff;
-    color: #000;
-}
-
-body.light-mode header, 
-body.light-mode footer, 
-body.light-mode .content {
-    background-color: #f9f9f9;
-    color: #333;
-}
-
-body.dark-mode {
-    background-color: #333;
-    color: #fff;
-}
-
-body.dark-mode header, 
-body.dark-mode footer, 
-body.dark-mode .content {
-    background-color: #222;
-    color: #ddd;
-}
-
-.mode-toggle {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    font-size: 24px;
-}
-
   /**
    * colors
    */
